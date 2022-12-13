@@ -32,6 +32,12 @@ body {
     border-top: 3px solid #000;
 }
 
+.section-3 {
+    height: 92vh;
+    width: 100%;
+    border-top: 3px solid #000;
+}
+
 @media only screen and (max-width: 880px) {
     .main-page {
         max-height: 100vh;
