@@ -33,6 +33,10 @@ body {
     background-image: url("./IMG_WEB/new-img.png");
     z-index: 5;
 }
+.main-page .contenedor-dark {
+    height: 100vh;
+    max-width: 100%;
+}
 .main-page .contenedor-dark .main-cont {
     min-height: 70vh;
     width: 60%;
@@ -47,7 +51,10 @@ body {
     z-index: 5;
     border-top: 3px solid #000;
 }
-
+.section-2 .contenedor-dark {
+    height: 100vh;
+    max-width: 100%;
+}
 /* container of experience in section 2 "glass type" */
 .section-2 .contenedor-dark .glass-screen {
     background: #fff;
@@ -73,18 +80,35 @@ body {
 /* Need to fix responsive width !important */
 @media only screen and (max-width: 880px) {
     .main-page {
-        max-height: 100vh;
-        width: auto;
+        height: 94vh;
+        width: 100%;
         background-image: none;
     }
-    .main-page .contenedor-dark .main-cont h1, p {
-        color:#fff;
+    .main-page .contenedor-dark {
+        height: 100%;
+        width: 100%;
     }
+/*     .main-page .contenedor-dark .main-cont h1, p {
+        color:#fff;
+    } */
     
     .section-2 {
-        max-height: 100%;
-        width: auto;
+        height: 94vh;
+        width: 100%;
         background-image: none;
     }
+    .section-2 .contenedor-dark {
+        height: 100%;
+        width: 100%;
+    }
+/*     .section-2 .contenedor-dark .glass-screen {
+        visibility: hidden;
+        width: 100%;
+    } */
     
+    .section-3 {
+        height: 92vh;
+        width: 100%;
+    }
 }
+
