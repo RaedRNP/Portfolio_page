@@ -70,16 +70,21 @@ body {
 }
 
 /* responsive */
+/* Need to fix responsive width !important */
 @media only screen and (max-width: 880px) {
     .main-page {
         max-height: 100vh;
+        width: auto;
         background-image: none;
-        opacity: 0.4;
+    }
+    .main-page .contenedor-dark .main-cont h1, p {
+        color:#fff;
     }
     
     .section-2 {
         max-height: 100%;
+        width: auto;
         background-image: none;
-        opacity: 0.4;
     }
+    
 }
