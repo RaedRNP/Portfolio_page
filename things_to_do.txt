@@ -16,3 +16,4 @@ Things to Do
     · Github
     · Fiverr
     · Personal Photo
+8- Implement a function with js to change the .active class 

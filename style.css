@@ -26,7 +26,7 @@ body {
     justify-content: center;
 }
 
-/* Sections 1 */
+/* --------------- Section 1 --------------- */
 .main-page {
     height: 92vh;
     width: 100%;
@@ -38,12 +38,22 @@ body {
     max-width: 100%;
 }
 .main-page .contenedor-dark .main-cont {
+    display: flex;
+    flex-direction: row;
     min-height: 70vh;
     width: 60%;
     z-index: 15;
 }
+.main-page .contenedor-dark .main-cont h1 {
+    flex: 50%;
+    padding: 2em;
+}
+.main-page .contenedor-dark .main-cont p {
+    flex: 50%;
+    padding: 2em;
+}
 
-/* section 2 */
+/* --------------- Section 2 --------------- */
 .section-2 {
     height: 92vh;
     width: 100%;
@@ -60,6 +70,7 @@ body {
     background: #fff;
     min-height: 70vh;
     width: 70%;
+    margin-bottom: 3em;
     z-index: 15;
     background: linear-gradient(
         to bottom, 
@@ -69,14 +80,14 @@ body {
     backdrop-filter: blur(0.2rem);
 }
 
-/* section 3 */
+/* --------------- Section 3 --------------- */
 .section-3 {
     height: 92vh;
     width: 100%;
     border-top: 3px solid #000;
 }
 
-/* responsive */
+/* --------------- Responsive --------------- */
 /* Need to fix responsive width !important */
 @media only screen and (max-width: 880px) {
     .main-page {
@@ -88,9 +99,20 @@ body {
         height: 100%;
         width: 100%;
     }
-/*     .main-page .contenedor-dark .main-cont h1, p {
+    .main-page .contenedor-dark .main-cont{
+        flex-direction: column;
+    }
+    .main-page .contenedor-dark .main-cont h1, p {
         color:#fff;
-    } */
+    }
+    .main-page .contenedor-dark .main-cont h1 {
+        font-size: x-large;
+        font-weight: 700;
+    }
+    .main-page .contenedor-dark .main-cont p {
+        font-size: large;
+        font-weight: 300;
+    }
     
     .section-2 {
         height: 94vh;
@@ -101,10 +123,10 @@ body {
         height: 100%;
         width: 100%;
     }
-/*     .section-2 .contenedor-dark .glass-screen {
+    .section-2 .contenedor-dark .glass-screen {
         visibility: hidden;
         width: 100%;
-    } */
+    }
     
     .section-3 {
         height: 92vh;
