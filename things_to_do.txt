@@ -1,0 +1,18 @@
+Things to Do
+
+1- Fix responsive width
+2- Move options in navbar
+3- Add content to 1st section:
+    · Name
+    · Little resume
+4- Add content to 2nd section:
+    · Programming Lenguajes
+    · Frameworks used
+    · Projects
+5- Verify responsive
+6- Add img to responsive design
+7- Add 3rd Section info:
+    · Mail
+    · Github
+    · Fiverr
+    · Personal Photo
