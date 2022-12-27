@@ -15,11 +15,15 @@ body {
     height: 100%;
 }
 
+.edited-collapse {
+    flex-direction: row-reverse;
+}
+
 /* darker img from (main-page to section-2) */
 .contenedor-dark {
     height: 92vh;
     width: 100%;
-    background-color: #15151580;
+    background-color: #1515159a;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -45,10 +49,12 @@ body {
 .main-page .contenedor-dark .main-cont h1 {
     text-align: center;
     padding: 2em;
+    color: #f0f0f0
 }
 .main-page .contenedor-dark .main-cont p {
     text-align: center;
     padding: 2em;
+    color: #f0f0f0
 }
 
 /* --------------- Section 2 --------------- */
@@ -87,11 +93,10 @@ body {
 
 /* --------------- Responsive --------------- */
 /* Need to fix responsive width !important */
-/* @media only screen and (max-width: 880px) {
+@media only screen and (max-width: 880px) {
     .main-page {
         height: 94vh;
         width: 100%;
-        background-image: none;
     }
     .main-page .contenedor-dark {
         height: 100%;
@@ -115,7 +120,7 @@ body {
     .section-2 {
         height: 94vh;
         width: 100%;
-        background-image: none;
+
     }
     .section-2 .contenedor-dark {
         height: 100%;
@@ -130,5 +135,5 @@ body {
         height: 92vh;
         width: 100%;
     }
-} */
+}
 

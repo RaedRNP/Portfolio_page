@@ -1,7 +1,7 @@
 Things to Do
 
-1- Fix responsive width (DONE)
-2- Move options in navbar
+1- Fix responsive width
+2- Move options in navbar (DONE)
 3- Add content to 1st section:
     · Name
     · Little resume
