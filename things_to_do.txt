@@ -2,18 +2,24 @@ Things to Do
 
 1- Fix responsive width (DONE)
 2- Move options in navbar (DONE)
-3- Add content to 1st section:
+3- Add content to 1st section: (DONE)
     · Name (DONE)
-    · Little resume
+    · Little resume (DONE)
+
 4- Add content to 2nd section:
-    · Programming Lenguajes
-    · Frameworks used
+    · Programming Lenguajes (DONE)
+    · Frameworks used (DONE)
     · Projects
+
 5- Verify responsive 
+
 6- Add img to responsive design (DONE)
-7- Add 3rd Section info: (DONE)
+
+7- Add 3rd Section info:
     · Mail (DONE)
     · Github (DONE)
     · Fiverr (DONE)
+
     · Personal Photo
+
 8- Implement a function with js to change the .active class 
