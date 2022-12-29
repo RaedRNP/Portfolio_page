@@ -69,6 +69,11 @@ body {
     height: 100vh;
     max-width: 100%;
 }
+.section-2 .contenedor-dark .movil-content {
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+}
 /* container of experience in section 2 "glass type" */
 .section-2 .contenedor-dark .glass-screen {
     background: #fff;
@@ -81,22 +86,20 @@ body {
         rgba(0,0,0,0.7), 
         rgba(0,0,0,0.2));  
     border-radius: 2rem;
-    backdrop-filter: blur(0.5rem);
-    text-align: start;
+    backdrop-filter: blur(0.8rem);
+    text-align: center;
 }
 .section-2 .contenedor-dark .glass-screen h2 {
     color: #f0f0f0;
     margin: 0.5em 2em;
-    padding: 0.2em;
+    padding: 0.5em;
 }
 .section-2 .contenedor-dark .glass-screen ul{
-    display: table;
+    list-style-type: circle;
+    text-align: center;
 }
-.section-2 .contenedor-dark .glass-screen ul li {
-    display: table-row;
-}
-.section-2 .contenedor-dark .glass-screen ul li div {
-    display: table-cell;
+.section-2 .contenedor-dark .glass-screen ul li, ._span {
+    display: inline-block;
     color: #f0f0f0;
     margin: 0.5em 2em;
     padding: 0.2em;
@@ -148,7 +151,7 @@ body {
     }
     .main-page .contenedor-dark .main-cont p {
         font-size: large;
-        font-weight: 300;
+        font-weight: 400;
     }
     
     .section-2 {
@@ -160,9 +163,31 @@ body {
         height: 100%;
         width: auto;
     }
+    .section-2 .contenedor-dark .movil-content {
+        visibility: visible;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-2 .contenedor-dark .movil-content h2, ul {
+        color: #f0f0f0;
+        margin: 2em 0.5em;
+        font-size: x-large;
+        font-weight: 700;
+    }
+    .section-2 .contenedor-dark .movil-content ul li {
+        color: #f0f0f0;
+        display: inline-block;
+        font-size: large;
+        font-weight: 400;
+        
+    }
     .section-2 .contenedor-dark .glass-screen {
         visibility: hidden;
-        max-width: auto;
+        width: 1px;
+        height: 1px;
     }
     
     .section-3 {
