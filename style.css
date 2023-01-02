@@ -46,6 +46,14 @@ body {
     width: 60%;
     z-index: 15;
 }
+.main-page .contenedor-dark .main-cont .profile_img {
+    height: 10em;
+    border-radius: 5em;
+    border: 1px solid #000;
+    position: relative;
+    left: 50%;
+    margin-left: -5em;
+}
 .main-page .contenedor-dark .main-cont h1 {
     text-align: center;
     padding: 2em;
@@ -147,11 +155,11 @@ body {
     }
     .main-page .contenedor-dark .main-cont h1 {
         font-size: x-large;
-        font-weight: 700;
+        font-weight: 600;
     }
     .main-page .contenedor-dark .main-cont p {
         font-size: large;
-        font-weight: 400;
+        font-weight: 300;
     }
     
     .section-2 {
@@ -170,24 +178,25 @@ body {
         height: 100vh;
         display: flex;
         flex-direction: column;
+        margin-top: 25%;
     }
     .section-2 .contenedor-dark .movil-content h2, ul {
         color: #f0f0f0;
-        margin: 2em 0.5em;
+        margin-top: 1.5em;
         font-size: x-large;
-        font-weight: 700;
+        font-weight: 600;
     }
     .section-2 .contenedor-dark .movil-content ul li {
         color: #f0f0f0;
         display: inline-block;
         font-size: large;
-        font-weight: 400;
+        font-weight: 300;
         
     }
     .section-2 .contenedor-dark .glass-screen {
         visibility: hidden;
-        width: 1px;
-        height: 1px;
+        width: 0.5px;
+        height: 0.5px;
     }
     
     .section-3 {
