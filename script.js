@@ -9,3 +9,6 @@ const links = document.querySelectorAll("a[href^='#']").forEach(anchor => {
     });
 });
 
+$(document).on("click", 'nav div div a', function() {
+    $(this).addClass('active').siblings().removeClass('active');
+})

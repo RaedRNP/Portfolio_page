@@ -20,6 +20,6 @@ Things to Do
     · Github (DONE)
     · Fiverr (DONE)
 
-    · Personal Photo
+    · Personal Photo(DONE)
 
-8- Implement a function with js to change the .active class 
+8- Implement a function with js to change the .active class (DONE)
